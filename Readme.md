@@ -66,3 +66,7 @@ Add dependencies to current module and install them:
 ```bash
 go get https://github.com/user/lib
 ```
+
+## License
+
+[MIT](LICENSE)
