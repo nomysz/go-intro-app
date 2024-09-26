@@ -64,12 +64,12 @@ ok  	github.com/nomysz/go-intro-app	0.109s
 
 ### Nice to know
 
-Add missing and remove unused modules:
+Add missing and remove unused packages:
 ```bash
 $ go mod tidy
 ```
 
-Add dependencies to current module and install them:
+Install packages:
 ```bash
 $ go install github.com/user/package
 
