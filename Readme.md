@@ -18,7 +18,7 @@ CLOUDCOVER: 1, SEEING: 2, TRANSPARENCY: 2
 ### Requirements
 
 - Go (download from [official website](https://go.dev/dl/))
-- Plugin for your editor of choice; Go LSP is powerfull all-in-one tool
+- Go plugin for your editor of choice; Go LSP is powerfull tool
 
 ### Run
 
@@ -71,7 +71,11 @@ $ go mod tidy
 
 Add dependencies to current module and install them:
 ```bash
-$ go get https://github.com/user/lib
+$ go install github.com/user/package
+
+# or
+
+$ go install github.com/user/package@version
 ```
 
 ## License
