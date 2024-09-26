@@ -55,6 +55,13 @@ $ GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o astro-weather
 
 List of all supported architectures and operating systems can be found [here](https://gist.github.com/asukakenji/f15ba7e588ac42795f421b48b8aede63).
 
+### Test
+
+```bash
+$ go test ./..
+ok  	github.com/nomysz/go-intro-app	0.109s
+```
+
 ### Nice to know
 
 Add missing and remove unused modules:
